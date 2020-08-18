@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import messages from '../messages';
 @Component({
   selector: 'app-top-nav',
   templateUrl: './top-nav.component.html',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopNavComponent implements OnInit {
 
+  messages : any[] = [];
+
   constructor() { }
 
   ngOnInit() {
+    this.messages = messages;
   }
 
 }
