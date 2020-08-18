@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { TestComponentComponent } from './test-component/test-component.component';
-import { SecondTestComponent } from './second-test/second-test.component';
 import { DateTimeComponent } from './date-time/date-time.component';
 import { MessagePreviewComponent } from './message-preview/message-preview.component';
 import { TaskItemComponent } from './task-item/task-item.component';
@@ -22,8 +20,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponentComponent,
-    SecondTestComponent,
     DateTimeComponent,
     MessagePreviewComponent,
     TaskItemComponent,
